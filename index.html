@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&amp;display=swap" rel="stylesheet">
+    <title>Films</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header__menu">
+          <h1>Список фильмов</h1>
+          <p class="numberYear">2023</p>
+        </div>
+        <h2>Посмотреть</h2>
+      </div>
+      <div class="movies">
+        <div class="movies__input-nameMovie">
+          <input type="text" class="js-inputMovie inputMovie" placeholder="Добавить фильм">
+
+          <div class="input_btn">
+            <button class="js-btn-new-movie btn-new-movie" disabled="">
+              <img src="/movies.png" alt="">
+              <img class="vector" src="/arrov.svg" alt="">
+            </button>
+          </div>
+        </div>
+        <ul class="js-movies-list movie-list"></ul>
+      <!-- <input type="checkbox"> -->  
+      </div>
+    </div> 
+    <script src="index.js"></script>
+  </body>
+</html>
